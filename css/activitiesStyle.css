@@ -25,6 +25,8 @@
 .nav-logo-contenido {
     display: flex;
     align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-logo-contenido h1 {
