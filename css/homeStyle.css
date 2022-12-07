@@ -474,67 +474,6 @@
     transition: ease-out 0.25s;
 }
 
-@media screen and (max-width: 1250px){
-    .logo-container{
-        width: 50px;
-        height: 50px;
-    }
-
-    .nav-logo-contenido h1{
-        font-size: 24px;
-    }
-
-    .nav-bar-menu ul li a {
-        font-size: 16px;
-    }
-
-    .place-category{
-        font-size: 24px;
-    }
-
-    .place-card{
-        width: 30vw;
-        height: 25vh;
-    }
-
-    .see-more-places{
-        font-size: 16px;
-    }
-
-    .services-section h2{
-        font-size: 24px;
-    }
-
-    .services-item h2 {
-        font-size: 20px;
-    }
-
-    .services-item p {
-        font-size: 16px;
-    }
-
-    .see-more{
-        font-size: 16px;
-    }
-
-    .banner h2, .banner a{
-        font-size: 20px;
-    }
-
-    .gallery-section h2{
-        font-size: 24px;
-    }
-
-    .gallery-item{
-        width: 25vw;
-        height: 25vh;
-    }
-
-    .map-container h2{
-        font-size: 24px;
-    }
-}
-
 @media screen and (max-width: 1336px){
     .logo-container{
         width: 75px;

@@ -13,11 +13,12 @@ function openIMG(img){
     var imageItem = document.getElementById("fullImage")
 
     imageBox.style.zIndex = "99999"
-    imageBox.style.display = "flex"
+    imageBox.style.opacity = 1
     imageItem.src = img
 }
 
 function closeIMG(){
     var imageBox = document.getElementById("fullImageBox")
-    imageBox.style.display = "none"
+    imageBox.style.opacity = 0;
+    imageBox.style.zIndex = "-99999"
 }

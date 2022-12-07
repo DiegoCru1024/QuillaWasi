@@ -185,19 +185,27 @@
 
 .full-img{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
-    align-content: center;
+    display: flex;
+    opacity: 0;
+    align-items: center;
     justify-content: center;
+    z-index: -99999;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .full-img img{
-    height: 100%;
-    max-width: 80%;
+    width: 80%;
+    height: auto;
 }
 
 .full-img span{
@@ -214,4 +222,14 @@
     margin-top: 50px;
     font-size: 24px;
     color: var(--fondo-secundario);
+}
+
+@media screen and (max-width: 1024px){
+    .nav-logo-contenido h1{
+        font-size: 36px;
+    }
+
+    .nav-bar-menu ul li a {
+        display: none;
+    }
 }
