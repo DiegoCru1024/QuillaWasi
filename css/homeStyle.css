@@ -602,12 +602,12 @@
 
 @media screen and (max-width: 1024px){
     .logo-container{
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
     }
 
     .nav-logo-contenido h1{
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .nav-bar-menu ul li a {
@@ -615,7 +615,7 @@
     }
 
     .place-category{
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .place-card{
@@ -624,11 +624,11 @@
     }
 
     .see-more-places{
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .services-section h2{
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .services-item{
@@ -639,28 +639,28 @@
     }
 
     .services-item i{
-        font-size: 20px;
+        font-size: 30px;
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
     }
 
     .services-item h2 {
-        font-size: 18px;
+        font-size: 30px;
         width: 100%;
         text-align: center;
     }
 
     .services-item p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .see-more{
-        font-size: 16px;
+        font-size: 24px;
     }
 
     .banner h2, .banner a{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .gallery-section h2{
@@ -674,6 +674,6 @@
     }
 
     .map-container h2{
-        font-size: 24px;
+        font-size: 30px;
     }
 }
