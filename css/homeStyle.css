@@ -559,7 +559,7 @@
 
     .place-card{
         width: 30vw;
-        height: 25vh;
+        height: 20vw;
     }
 
     .see-more-places{
@@ -592,7 +592,7 @@
 
     .gallery-item{
         width: 25vw;
-        height: 25vh;
+        height: 20vw;
     }
 
     .map-container h2{
@@ -620,7 +620,7 @@
 
     .place-card{
         width: 50vw;
-        height: 25vh;
+        height: 35vw;
     }
 
     .see-more-places{
@@ -634,7 +634,7 @@
     .services-item{
         margin: 10px;
         padding: 10px;
-        height: 25vh;
+        height: 35vw;
         width: 28vw;
     }
 
@@ -646,13 +646,13 @@
     }
 
     .services-item h2 {
-        font-size: 16px;
+        font-size: 18px;
         width: 100%;
         text-align: center;
     }
 
     .services-item p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .see-more{
@@ -670,7 +670,7 @@
     .gallery-item{
         margin: 10px;
         width: 28vw;
-        height: 20vh;
+        height: 35vw;
     }
 
     .map-container h2{
