@@ -601,6 +601,10 @@
 }
 
 @media screen and (max-width: 1024px){
+    p {
+        font-size: 18px;
+    }
+
     .logo-container{
         width: 100px;
         height: 100px;
@@ -665,7 +669,7 @@
     }
 
     .gallery-section h2{
-        font-size: 24px;
+        font-size: 36px;
     }
 
     .gallery-item{

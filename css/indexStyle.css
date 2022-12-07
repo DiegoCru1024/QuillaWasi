@@ -90,3 +90,43 @@
 .title-section h3{
     font-size: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+    .title-section{
+        text-align: center;
+        color: white;
+        background: var(--fondo-primario);
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+    .title-section h1 {
+        font-size: 50px;
+    }
+
+    .title-section h3 {
+        font-size: 36px;
+    }
+
+    .index-text{
+        width: 75vw;
+        height: 50vw;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .link-area a {
+        margin-bottom: 30px;
+    }
+
+    .link-area p{
+        font-size: 36px;
+        padding: 25px;
+    }
+
+    .link-area{
+        flex-direction: column;
+        justify-content: end;
+    }
+}
