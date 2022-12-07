@@ -1,0 +1,238 @@
+:root {
+    --fondo-primario: #252A34;
+    --fondo-secundario: #00ADB5;
+}
+
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.nav-bar-contenido {
+    width: 100%;
+    height: 15vh;
+    background: var(--fondo-primario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.nav-logo-contenido {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-container{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.logo-container{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-logo-contenido h1 {
+    margin-left: 20px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    background: var(--fondo-secundario);
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-bar-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-bar-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.nav-bar-menu ul li:before {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: var(--fondo-secundario);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.25s ease-out;
+}
+
+.nav-bar-menu ul li:hover::before {
+    width: 100%;
+}
+
+.nav-bar-menu ul li:last-child:hover::before {
+    width: 0;
+}
+
+.contact-button a {
+    background: var(--fondo-secundario);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contact-button {
+    transition: ease-out 0.25s;
+}
+
+.contact-button:hover {
+    transform: scale(110%);
+    transition: ease-out 0.5s;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background: var(--fondo-primario);
+    width: 100%;
+}
+
+.footer-section {
+    padding: 20px 20px;
+    margin: 20px 20px;
+    width: 25%;
+    color: white;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section i {
+    font-size: 30px;
+}
+
+.social-media-line {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.social-media-line p {
+    margin-left: 10px;
+}
+
+.number-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-container a, .footer-link-container p {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: ease-out 0.25s;
+}
+
+.footer-link-container p:hover {
+    color: var(--fondo-secundario);
+    transform: translate(5%, 0);
+    transition: ease-out 0.5s;
+}
+
+.services-section{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-item:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-item:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-item:nth-child(odd) > .service-item-content{
+    padding-left: 100px;
+}
+
+.service-item:nth-child(even) > .service-item-content{
+    padding-right: 100px;
+}
+
+.service-item{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service-item img{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.service-item-content div{
+    display: flex;
+    align-items: center;
+}
+
+.service-item-content i{
+    font-size: 36px;
+}
+
+.service-item-content h2{
+    margin-left: 10px;
+    font-size: 30px;
+    color: var(--fondo-secundario);
+}
+
+.service-item-content p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
