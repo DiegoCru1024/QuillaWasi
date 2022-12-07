@@ -474,26 +474,206 @@
     transition: ease-out 0.25s;
 }
 
-@media only screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px){
+    .logo-container{
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 24px;
+    }
+
     .nav-bar-menu ul li a {
-        display: none;
+        font-size: 16px;
     }
 
-    .place-card {
+    .place-category{
+        font-size: 24px;
+    }
+
+    .place-card{
         width: 30vw;
-        height: 20vh;
+        height: 25vh;
     }
 
-    .services-item{
-        margin: 25px 25px;
-        padding: 25px;
+    .see-more-places{
+        font-size: 16px;
+    }
 
-        width: 25vw;
-        height: 20vh;
+    .services-section h2{
+        font-size: 24px;
+    }
+
+    .services-item h2 {
+        font-size: 20px;
+    }
+
+    .services-item p {
+        font-size: 16px;
+    }
+
+    .see-more{
+        font-size: 16px;
+    }
+
+    .banner h2, .banner a{
+        font-size: 20px;
+    }
+
+    .gallery-section h2{
+        font-size: 24px;
     }
 
     .gallery-item{
         width: 25vw;
+        height: 25vh;
+    }
+
+    .map-container h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .logo-container{
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 20px;
+    }
+
+    .nav-bar-menu ul li a {
+        font-size: 14px;
+    }
+
+    .nav-bar-menu ul li {
+        margin: 0 10px;
+    }
+
+    .place-category{
+        font-size: 24px;
+    }
+
+    .place-card{
+        width: 30vw;
+        height: 25vh;
+    }
+
+    .see-more-places{
+        font-size: 16px;
+    }
+
+    .services-section h2{
+        font-size: 24px;
+    }
+
+    .services-item h2 {
+        font-size: 20px;
+    }
+
+    .services-item p {
+        font-size: 16px;
+    }
+
+    .see-more{
+        font-size: 16px;
+    }
+
+    .banner h2, .banner a{
+        font-size: 20px;
+    }
+
+    .gallery-section h2{
+        font-size: 24px;
+    }
+
+    .gallery-item{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .map-container h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .logo-container{
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 24px;
+    }
+
+    .nav-bar-menu ul li a {
+        display: none;
+    }
+
+    .place-category{
+        font-size: 24px;
+    }
+
+    .place-card{
+        width: 50vw;
+        height: 25vh;
+    }
+
+    .see-more-places{
+        font-size: 16px;
+    }
+
+    .services-section h2{
+        font-size: 24px;
+    }
+
+    .services-item{
+        margin: 10px;
+        padding: 10px;
+        height: 25vh;
+        width: 28vw;
+    }
+
+    .services-item i{
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .services-item h2 {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-item p {
+        font-size: 14px;
+    }
+
+    .see-more{
+        font-size: 16px;
+    }
+
+    .banner h2, .banner a{
+        font-size: 20px;
+    }
+
+    .gallery-section h2{
+        font-size: 24px;
+    }
+
+    .gallery-item{
+        margin: 10px;
+        width: 28vw;
         height: 20vh;
+    }
+
+    .map-container h2{
+        font-size: 24px;
     }
 }
