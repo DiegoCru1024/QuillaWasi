@@ -567,7 +567,7 @@
     }
 
     .see-more-places{
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .services-section h2{
@@ -577,8 +577,12 @@
     .services-item{
         margin: 10px;
         padding: 10px;
-        height: 35vw;
-        width: 28vw;
+        height: 25vw;
+        width: 80vw;
+    }
+
+    .services-row{
+        flex-direction: column;
     }
 
     .services-item i{
@@ -595,12 +599,12 @@
     }
 
     .services-item p {
-        font-size: 24px;
+        font-size: 30px;
         text-align: center;
     }
 
     .see-more{
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .banner h2, .banner a{
