@@ -607,7 +607,7 @@
     }
 
     .nav-logo-contenido h1{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .nav-bar-menu ul li a {
@@ -615,7 +615,7 @@
     }
 
     .place-category{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .place-card{
@@ -628,7 +628,7 @@
     }
 
     .services-section h2{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .services-item{
@@ -639,7 +639,7 @@
     }
 
     .services-item i{
-        font-size: 30px;
+        font-size: 36px;
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
@@ -652,7 +652,8 @@
     }
 
     .services-item p {
-        font-size: 20px;
+        font-size: 24px;
+        text-align: center;
     }
 
     .see-more{
@@ -674,6 +675,6 @@
     }
 
     .map-container h2{
-        font-size: 30px;
+        font-size: 36px;
     }
 }
