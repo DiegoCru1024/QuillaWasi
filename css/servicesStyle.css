@@ -236,3 +236,54 @@
     font-size: 20px;
     text-align: justify;
 }
+
+@media screen and (max-width: 1336px) {
+    .logo-container{
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 20px;
+    }
+
+    .nav-bar-menu ul li a {
+        font-size: 14px;
+    }
+
+    .nav-bar-menu ul li {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    p {
+        font-size: 18px;
+    }
+
+    .logo-container{
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 36px;
+    }
+
+    .nav-bar-menu ul li a {
+        display: none;
+    }
+
+    .service-item img{
+        width: 30vw;
+        height: 25vw;
+    }
+
+    .service-item:nth-child(odd) > .service-item-content{
+        padding-left: 50px;
+    }
+
+    .service-item:nth-child(even) > .service-item-content{
+        padding-right: 50px;
+    }
+}

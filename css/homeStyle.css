@@ -474,6 +474,19 @@
     transition: ease-out 0.25s;
 }
 
+.reviews{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.reviews h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--fondo-secundario);
+    text-align: center;
+}
+
 @media screen and (max-width: 1336px){
     .logo-container{
         width: 75px;
@@ -537,6 +550,10 @@
     .map-container h2{
         font-size: 24px;
     }
+
+    .reviews h2{
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -568,6 +585,7 @@
 
     .see-more-places{
         font-size: 30px;
+        margin-top: 20px;
     }
 
     .services-section h2{
@@ -605,6 +623,7 @@
 
     .see-more{
         font-size: 30px;
+        margin-top: 20px;
     }
 
     .banner h2, .banner a{

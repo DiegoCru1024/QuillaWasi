@@ -170,7 +170,7 @@
 }
 
 .contact-section img{
-    width: 40%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -219,4 +219,60 @@
     margin-top: 20px;
     margin-bottom: 50px;
     width: 100%;
+}
+
+@media screen and (max-width: 1336px) {
+    .logo-container{
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 20px;
+    }
+
+    .nav-bar-menu ul li a {
+        font-size: 14px;
+    }
+
+    .nav-bar-menu ul li {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .nav-logo-contenido h1{
+        font-size: 36px;
+    }
+
+    .nav-bar-menu ul li a {
+        display: none;
+    }
+
+    .contact-section img{
+        width: 75%;
+        border-radius: 10px;
+    }
+
+    .contact-section h2{
+        font-size: 36px;
+    }
+
+    .contact-section p{
+        font-size: 24px;
+        width: 70%;
+    }
+
+    .contact-channels h3{
+        font-size: 24px;
+    }
+
+    .contact-channels p{
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .map-container h2{
+        font-size: 36px;
+    }
 }
