@@ -204,8 +204,8 @@
 }
 
 .full-img img{
-    width: 80%;
-    height: auto;
+    max-width: 80%;
+    height: 100%;
 }
 
 .full-img span{
@@ -222,6 +222,15 @@
     margin-top: 50px;
     font-size: 24px;
     color: var(--fondo-secundario);
+}
+
+.section-divider h2{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--fondo-secundario);
+    font-size: 30px;
 }
 
 @media screen and (max-width: 1336px) {
@@ -250,5 +259,10 @@
 
     .nav-bar-menu ul li a {
         display: none;
+    }
+
+    .full-img img{
+        width: 80%;
+        height: auto;
     }
 }

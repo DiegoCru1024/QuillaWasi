@@ -1,13 +1,3 @@
-window.onload = function (){
-    for(var i = 0; i < 50; i++){
-        var container = document.getElementById("test")
-        var img = document.createElement("img")
-        img.src = `../img/mainGallery/gallery(${i+1}).jpg`
-        img.setAttribute("onclick","openIMG(this.src);")
-        container.append(img)
-    }
-}
-
 function openIMG(img){
     var imageBox = document.getElementById("fullImageBox")
     var imageItem = document.getElementById("fullImage")
