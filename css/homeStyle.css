@@ -487,13 +487,16 @@
     text-align: center;
 }
 
-.burger-menu{
+input{
     display: none;
-    background: var(--fondo-secundario);
+}
+
+.nav-toggle .bar{
+    display: none;
+    background-color: white;
+    width: 40px;
+    height: 5px;
     border-radius: 10px;
-    font-size: 24px;
-    width: 50px;
-    height: 50px;
 }
 
 @media screen and (max-width: 1336px){
@@ -570,17 +573,8 @@
         font-size: 18px;
     }
 
-    .logo-container{
-        width: 100px;
-        height: 100px;
-    }
-
     .nav-logo-contenido h1{
         font-size: 36px;
-    }
-
-    .nav-bar-menu ul li a {
-        display: none;
     }
 
     .place-category{
@@ -661,9 +655,76 @@
         width: 90%;
     }
 
-    .burger-menu{
+    .nav-bar-menu ul{
+        display: grid;
+        position: absolute;
+        width: 100%;
+        top: 15vh;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
+
+    .nav-bar-menu ul li{
+        margin: 0;
+        padding: 20px;
+        background-color: var(--fondo-primario);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar-menu ul li a {;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .nav-toggle{
+        position: absolute;
+        right: 5%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        justify-content: space-around;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav-toggle .bar{
+        display: flex;
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-bar-menu ul{
+        transform: translateY(0);
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-toggle .bar:nth-child(1){
+        position: absolute;
+        transform: rotate(45deg);
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(2){
+        display: none;
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(3){
+        transform: rotate(-45deg);
+        transition: 0.5s;
+    }
+
+    .contact-button a {
+        background: transparent;
+
+    }
+
+    .contact-button:hover {
+        transform: none;
     }
 }

@@ -1,5 +1,5 @@
 var menuVisible = false
-var button = document.getElementById("burguerButton")
+const button = document.getElementById("burguerButton")
 var menuDiv
 
 function switchMenu(){

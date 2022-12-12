@@ -164,7 +164,7 @@
 .activities-section{
     width: 80%;
     margin: auto;
-    padding: 50px 0;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -223,4 +223,141 @@
     margin-top: 10px;
     font-size: 20px;
     text-align: justify;
+}
+
+.main-section{
+    width: 80%;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section h2{
+    color: var(--fondo-secundario);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-section p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container img{
+    width: 25vw;
+    height: 20vw;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.activities-title {
+    color: var(--fondo-secundario);
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+input{
+    display: none;
+}
+
+.nav-toggle .bar{
+    display: none;
+    background-color: white;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 36px;
+    }
+
+    .nav-bar-menu ul{
+        display: grid;
+        position: absolute;
+        width: 100%;
+        top: 15vh;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
+
+    .nav-bar-menu ul li{
+        margin: 0;
+        padding: 20px;
+        background-color: var(--fondo-primario);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar-menu ul li a {;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .nav-toggle{
+        position: absolute;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav-toggle .bar{
+        display: flex;
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-bar-menu ul{
+        transform: translateY(0);
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-toggle .bar:nth-child(1){
+        position: absolute;
+        transform: rotate(45deg);
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(2){
+        display: none;
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(3){
+        transform: rotate(-45deg);
+        transition: 0.5s;
+    }
+
+    .contact-button a {
+        background: transparent;
+
+    }
+
+    .contact-button:hover {
+        transform: none;
+    }
 }

@@ -221,6 +221,18 @@
     width: 100%;
 }
 
+input{
+    display: none;
+}
+
+.nav-toggle .bar{
+    display: none;
+    background-color: white;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1336px) {
     .logo-container{
         width: 75px;
@@ -241,14 +253,6 @@
 }
 
 @media screen and (max-width: 1024px){
-    .nav-logo-contenido h1{
-        font-size: 36px;
-    }
-
-    .nav-bar-menu ul li a {
-        display: none;
-    }
-
     .contact-section img{
         width: 75%;
         border-radius: 10px;
@@ -274,5 +278,86 @@
 
     .map-container h2{
         font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .nav-logo-contenido h1{
+        font-size: 36px;
+    }
+
+    .nav-bar-menu ul{
+        display: grid;
+        position: absolute;
+        width: 100%;
+        top: 15vh;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
+
+    .nav-bar-menu ul li{
+        margin: 0;
+        padding: 20px;
+        background-color: var(--fondo-primario);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-bar-menu ul li a {;
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .nav-toggle{
+        position: absolute;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .nav-toggle .bar{
+        display: flex;
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-bar-menu ul{
+        transform: translateY(0);
+        transition: 0.5s;
+    }
+
+    input:checked ~ .nav-toggle .bar:nth-child(1){
+        position: absolute;
+        transform: rotate(45deg);
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(2){
+        display: none;
+        transition: 0.5s;
+    }
+    input:checked ~ .nav-toggle .bar:nth-child(3){
+        transform: rotate(-45deg);
+        transition: 0.5s;
+    }
+
+    .contact-button a {
+        background: transparent;
+
+    }
+
+    .contact-button:hover {
+        transform: none;
     }
 }
